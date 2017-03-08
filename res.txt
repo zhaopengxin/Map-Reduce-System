@@ -1,0 +1,76 @@
+get new job!
+master: run_map_stage starts
+./input/sample1/file01
+
+master: run_group_stage starts
+reduce_worker_num: 4
+master: run_reduce_stage starts
+./var/job-0/grouper-output/file0000.out
+
+./var/job-0/grouper-output/file0001.out
+
+./var/job-0/grouper-output/file0002.out
+
+./var/job-0/grouper-output/file0003.out
+
+working_workers: 4
+master: run_reduce_stage ends
+
+!!!JOB IS DONE!!!
+get new job!
+master: run_map_stage starts
+./input/sample1/file01
+
+master: run_group_stage starts
+reduce_worker_num: 4
+master: run_reduce_stage starts
+./var/job-1/grouper-output/file0000.out
+
+./var/job-1/grouper-output/file0001.out
+
+./var/job-1/grouper-output/file0002.out
+
+./var/job-1/grouper-output/file0003.out
+
+working_workers: 4
+master: run_reduce_stage ends
+
+!!!JOB IS DONE!!!
+get new job!
+master: run_map_stage starts
+./input/sample1/file01
+
+master: run_group_stage starts
+reduce_worker_num: 4
+master: run_reduce_stage starts
+./var/job-2/grouper-output/file0000.out
+
+./var/job-2/grouper-output/file0001.out
+
+./var/job-2/grouper-output/file0002.out
+
+./var/job-2/grouper-output/file0003.out
+
+working_workers: 4
+master: run_reduce_stage ends
+
+!!!JOB IS DONE!!!
+get new job!
+master: run_map_stage starts
+./input/sample1/file01
+
+master: run_group_stage starts
+reduce_worker_num: 4
+master: run_reduce_stage starts
+./var/job-3/grouper-output/file0000.out
+
+./var/job-3/grouper-output/file0001.out
+
+./var/job-3/grouper-output/file0002.out
+
+./var/job-3/grouper-output/file0003.out
+
+working_workers: 4
+master: run_reduce_stage ends
+
+!!!JOB IS DONE!!!
